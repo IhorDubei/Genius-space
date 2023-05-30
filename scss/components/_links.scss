@@ -1,0 +1,11 @@
+.link {
+    color: #faf4ea;
+    text-decoration: none;
+    transform: color 0.3s;
+
+}
+
+.link:hover {
+    color: var(--color-brand-normal);
+    font-weight: 600;
+}
