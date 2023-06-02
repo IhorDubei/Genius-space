@@ -5,16 +5,12 @@
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
-}
 
-.hero-title {
-    margin-bottom: 0;
-    color: #faf4ea;
-    text-align: center;
-    font-size: 128px;
-    font-weight: 900;
-}
-
-.hero-title .accent {
-    color: var(--color-brand-normal);
+    &___title {
+            margin-bottom: 0;
+            color: #faf4ea;
+            text-align: center;
+            font-size: 128px;
+            font-weight: 900;
+        }
 }
