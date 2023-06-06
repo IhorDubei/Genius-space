@@ -33,7 +33,7 @@
 :root {
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
-  --color-secondary-dark: #A28268;
+  --color-secondary-dark: #a28268;
   --color-brand-dark: #465929;
   --color-brand-normal: #819b57;
   --color-brand-light: #cfcfbc;
@@ -505,17 +505,18 @@ ul {
           flex-grow: 1;
   gap: 40px;
 }
-.header___menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 64px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (max-width: 1200px) {
+  .header___button {
+    display: none;
+  }
+}
+.header___burger {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .header___burger {
+    display: block;
+  }
 }
 
 .hero-section {

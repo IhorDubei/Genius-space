@@ -1,27 +1,33 @@
 .traditions-section {
-padding-top: 96px;
+  padding-top: 40px;
 
-&___container {
-        display: flex;
-        justify-content: space-between;
-        gap: 40px;
-    }
+  @media screen and (min-width: $bp-tablet) {
+    padding-top: 96px;
+  }
+  &___container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+  }
 
-    &___content {
-        max-width: 710px;
+  &___content {
+    max-width: 710px;
+  }
+  &___title {
+    margin-bottom: 42px;
+  }
+  &___text {
+    &--limited {
+      max-width: 340px;
     }
-    &___title {
-            margin-bottom: 42px;
-        }
-        &___text {
-            &--limited {
-max-width: 340px;
-            }          
-                }
+  }
+  &___image {
+    display: none;
+    border-radius: 400px 400px 0px 0px;
+
+    @media screen and (min-width: $bp-tablet) {
+      display: block;
+    }
+  }
 }
-
-
-
-
-
-

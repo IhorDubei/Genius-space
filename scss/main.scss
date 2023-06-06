@@ -1,61 +1,56 @@
-@import './utils/fonts';
+@import "./utils/fonts";
 
-@import './utils/variables';
+@import "./utils/variables";
 
-@import './base.scss';
+@import "./base.scss";
 
-@import './utils/utilus';
-@import './utils/mixins';
-@import './utils/texts';
+@import "./utils/utilus";
+@import "./utils/mixins";
+@import "./utils/texts";
 
+@import "./components/button.scss";
+@import "./components/input.scss";
+@import "./components/links";
+@import "./components/carousel-button";
+@import "./components/chef-card";
+@import "./components/format-card";
 
-@import './components/button.scss';
-@import './components/input.scss';
-@import './components/links';
-@import './components/carousel-button';
-@import './components/chef-card';
-@import './components/format-card';
-
-@import './layouts/advantages-section';
-@import './layouts/chefs-section';
-@import './layouts/contact-section';
-@import './layouts/container';
-@import './layouts/footer';
-@import './layouts/formats-section';
-@import './layouts/form-terms';
-@import './layouts/header';
-@import './layouts/hero-section';
-@import './layouts/modal';
-@import './layouts/sections';
-@import './layouts/traditions-section';
-
-
-
+@import "./layouts/advantages-section";
+@import "./layouts/chefs-section";
+@import "./layouts/contact-section";
+@import "./layouts/container";
+@import "./layouts/footer";
+@import "./layouts/formats-section";
+@import "./layouts/form-terms";
+@import "./layouts/header";
+@import "./layouts/hero-section";
+@import "./layouts/mobile-menu";
+@import "./layouts/modal";
+@import "./layouts/sections";
+@import "./layouts/traditions-section";
 
 .address-link {
-    color: var(--color-primary-light);
-    font-size: 16px;
-    font-weight: 300;
-    text-decoration: none;
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 .address-link:hover {
-    color: var(--color-brand-normal);
+  color: var(--color-brand-normal);
 }
 
 .address-icon {
-    fill: var(--color-primary-light);
+  fill: var(--color-primary-light);
 }
 
 .address-icon:hover {
-    fill: var(--color-brand-normal);
+  fill: var(--color-brand-normal);
 }
 
 .address-copyright {
-    font-size: 14px;
+  font-size: 14px;
 }
-
-
 
 /* .checkbox {
     position: relative;

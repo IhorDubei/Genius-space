@@ -1,0 +1,19 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary-light);
+  transform: translateX(100%);
+  transition: transform 0es;
+
+  &.is-open {
+    transform: translateX(0);
+  }
+  &___btn-close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+  }
+}
