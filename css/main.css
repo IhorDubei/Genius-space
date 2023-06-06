@@ -361,26 +361,26 @@ ul {
       flex-basis: calc(100% - 15px);
 }
 
-.contacts-section {
+.contact-section {
   padding-bottom: 96px;
 }
-.contacts-section___container {
+.contact-section___container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 32px;
 }
-.contacts-section___title {
+.contact-section___title {
   margin-bottom: 16px;
 }
-.contacts-section___form-field {
+.contact-section___form-field {
   margin-bottom: 24px;
 }
-.contacts-section___button {
+.contact-section___button {
   display: block;
   margin: 0 auto 16px;
 }
-.contacts-section___map {
+.contact-section___map {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   border-radius: 16px;
