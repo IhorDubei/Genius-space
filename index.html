@@ -9,6 +9,7 @@
 
         <!-- STYLES -->
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" />
     </head>
 
     <body>
@@ -122,53 +123,99 @@
             <section class="formats-section section" id="formats-section">
                 <div class="container">
                     <h2 class="formats-section___title section___title section___title---centered">Формати</h2>
-                    <div class="formats-section___container">
-                        <button class="carousel-buttom" type="button">
+                    <div class="formats-section___slider">
+                        <button class="formats-section___button carousel-buttom prev" type="button">
                         <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-left">
                             </use>
                         </svg>
                     </button>
-                    <ul class="formats-section___list">
-                        <li class="formats-section___item">
-                            <article class="format-card">
-                                <img class="format-card___image" src="./images/walrus.jpg" alt="Walrus format">
-                                <h3 class="format-card___title" lang="en">Welrus</h3>
-                                <div class="format-card___text">
-                                    <p>Площа: до 120 м2</p>
-                                    <p>Меню: розширене меню</p>
-                                    <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>
-                                    <p>Посадкові місця: є</p>
-                                </div>
-                            </article>
-                        </li>
-                        <li class="formats-section___item">
-                            <article class="format-card">
-                                <img class="format-card___image" src="./images/horseshoe.jpg" alt="Horseshoe format">
-                                <h3 class="format-card___title" lang="en">Horseshoe</h3>
-                                <div class="format-card___text">
-                                    <p>Площа: до 25 м2</p>
-                                    <p>Меню: найпопулярніші позиції меню</p>
-                                    <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
-                                    <p>Посадкові місця: відсутні</p>
-                                </div>
-                            </article>
-                        </li>
-                        <li class="formats-section___item">
-                            <article class="format-card">
-                                <img class="format-card___image" src="./images/handlebar.jpg" alt="Handlebar format">
-                                <h3 class="format-card___title" lang="en">Handlebar</h3>
-                                <div class="format-card___text">
-                                    <p>Площа: до 15 м2</p>
-                                    <p>Меню: найпопулярніші позиції меню</p>
-                                    <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
-                                    <p>Посадкові місця: відсутні</p>
-                                </div>
+                    <div class="formats-section___container swiper-container">
+                        <ul class="formats-section___list swiper-wrapper">
+                            <li class="swiper-slide">
+                                <article class="format-card">
+                                    <img class="format-card___image" src="./images/walrus.jpg" alt="Walrus format">
+                                    <h3 class="format-card___title" lang="en">Welrus</h3>
+                                    <div class="format-card___text">
+                                        <p>Площа: до 120 м2</p>
+                                        <p>Меню: розширене меню</p>
+                                        <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>
+                                        <p>Посадкові місця: є</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <article class="format-card">
+                                    <img class="format-card___image" src="./images/horseshoe.jpg" alt="Horseshoe format">
+                                    <h3 class="format-card___title" lang="en">Horseshoe</h3>
+                                    <div class="format-card___text">
+                                        <p>Площа: до 25 м2</p>
+                                        <p>Меню: найпопулярніші позиції меню</p>
+                                        <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
+                                        <p>Посадкові місця: відсутні</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <article class="format-card">
+                                    <img class="format-card___image" src="./images/handlebar.jpg" alt="Handlebar format">
+                                    <h3 class="format-card___title" lang="en">Handlebar</h3>
+                                    <div class="format-card___text">
+                                        <p>Площа: до 15 м2</p>
+                                        <p>Меню: найпопулярніші позиції меню</p>
+                                        <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
+                                        <p>Посадкові місця: відсутні</p>
+                                    </div>
+                        
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <article class="format-card">
+                                    <img class="format-card___image" src="./images/walrus.jpg" alt="Walrus format">
+                                    <h3 class="format-card___title" lang="en">Welrus</h3>
+                                    <div class="format-card___text">
+                                        <p>Площа: до 120 м2</p>
+                                        <p>Меню: розширене меню</p>
+                                        <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>
+                                        <p>Посадкові місця: є</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <article class="format-card">
+                                    <img class="format-card___image" src="./images/horseshoe.jpg" alt="Horseshoe format">
+                                    <h3 class="format-card___title" lang="en">Horseshoe</h3>
+                                    <div class="format-card___text">
+                                        <p>Площа: до 25 м2</p>
+                                        <p>Меню: найпопулярніші позиції меню</p>
+                                        <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
+                                        <p>Посадкові місця: відсутні</p>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="swiper-slide">
+                                <article class="format-card">
+                                    <img class="format-card___image" src="./images/handlebar.jpg" alt="Handlebar format">
+                                    <h3 class="format-card___title" lang="en">Handlebar</h3>
+                                    <div class="format-card___text">
+                                        <p>Площа: до 15 м2</p>
+                                        <p>Меню: найпопулярніші позиції меню</p>
+                                        <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
+                                        <p>Посадкові місця: відсутні</p>
+                                    </div>
+                            
+                                </article>
+                            </li>
+                        </ul>
+                        <div class="pagination">
+                            <span class="pagination___button" type="button" aria-label="Go to slide 1" ></span>
+                            <span class="pagination___button" type="button" aria-label="Go to slide 2"></span>
+                            <span class="pagination___button" type="button" aria-label="Go to slide 3"></span>
+                            <span class="pagination___button" type="button" aria-label="Go to slide 4"></span>
+                        </div>
+                    </div>
                     
-                            </article>
-                        </li>
-                    </ul>
-                    <button class="carousel-buttom next" type="button">
+                    <button class="formats-section___button carousel-buttom next" type="button">
                         <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-left"></use>
                         </svg>
@@ -375,6 +422,9 @@
             </form>      
         </div>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./js/formats-slider.js"></script>
+<script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 
     </body>
