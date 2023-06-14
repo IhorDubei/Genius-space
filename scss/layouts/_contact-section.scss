@@ -3,7 +3,12 @@
 
   &___container {
     display: flex;
+    flex-direction: column;
     gap: 32px;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+    }
   }
 
   &___title {
@@ -18,7 +23,20 @@
   }
   &___map {
     flex-shrink: 0;
+    height: 176px;
+    margin: 0 -24px;
     border-radius: 16px;
     border: none;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin: auto;
+      width: 600px;
+      height: 595px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      width: 600px;
+      height: 595px;
+    }
   }
 }

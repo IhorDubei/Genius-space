@@ -1,13 +1,11 @@
 .formats-section {
   &___slider {
     display: flex;
-
     align-items: center;
     gap: 32px;
   }
   &___container {
     overflow: hidden;
-    margin-right: 10px;
   }
   &___list {
     margin-bottom: 32px;
